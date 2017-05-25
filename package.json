@@ -1,0 +1,39 @@
+{
+  "name": "monoe",
+  "version": "1.0.0",
+  "description": "Project portafolio monoe",
+  "author": "johinsdev <johan.villamil@mocionsoft.com>",
+  "private": true,
+  "dependencies": {
+    "nuxt": "latest",
+    "classie": "^1.0.0",
+    "events": "^1.1.1",
+    "gsap": "^1.19.1",
+    "imagesloaded": "^4.1.2",
+    "layzr.js": "^2.2.2",
+    "scrollreveal": "^3.3.5"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "devDependencies": {
+    "axios": "^0.16.1",
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.15.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-html": "^2.0.0",
+    "eslint-plugin-promise": "^3.4.1",
+    "eslint-plugin-standard": "^2.0.1",
+    "node-sass": "^4.5.3",
+    "path": "^0.12.7",
+    "pug": "^2.0.0-rc.1",
+    "pug-loader": "^2.3.0",
+    "sass-loader": "^6.0.5"
+  }
+}

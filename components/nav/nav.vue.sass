@@ -1,0 +1,25 @@
+@import '~assets/scss/variables.scss'
+
+nav#scroll-navigator
+  background: rgba($white, .98)
+  position: fixed
+  z-index: 30
+  top: 0
+  left: 0
+  right: 0
+  .m-navigator__menu
+    display: flex
+    justify-content: space-between
+    .m-navigator__item
+      flex: 1
+      text-align: center
+      padding: 1rem 0
+      border-right: 1px solid $black
+
+    a.m-navigator__item
+      flex: 1.75
+      background: $black
+      border-right: 0
+
+    [data-active]
+      color: lime
